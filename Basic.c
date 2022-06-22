@@ -2,15 +2,14 @@
 
 int main()
 {
-  //printf("Hare Krishna Hare Krishna Krishna Krishna Hare Hare\nHare Ram Hare Ram Ram Ram Hare Hare\n");
-  int x=5;
-  printf("X data is=%d\n", x);
+  int x=5; // declare an interger variable
+  printf("X data is=%d\n", x);  //X data is = 5
   int y=7;
-  printf("Y data is=%d\n", y);
+  printf("Y data is=%d\n", y); //Y data is = 7
   y=50;
-  printf("Y data is=%d\n", y);
+  printf("Y data is=%d\n", y); //Y data is = 50
 
-  printf("Address of X is=%u\n", &x);
+  printf("Address of X is=%u\n", &x); //print the address of variable x
   return 0;
 
 }
